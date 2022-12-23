@@ -4,22 +4,24 @@
     backdrop-filter: blur(4px);
 }
 
+/* ------ header ------ */
 .header__navbar {
     background-color: var(--navbar-color);
-    padding: 2.4rem;
+    padding-inline: 2.4rem;
+    padding-block: 1rem;
 }
 
 .header__section-links {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 5vw;
 
     list-style-type: none;
 }
 
 .header__links a {
     color: white;
-    font-size: 1.4rem;
+    font-size: small;
 }
 
 .header__links a::after {
@@ -42,6 +44,7 @@
     width: 100%;
 }
 
+/* ------ main-content ------ */
 .principal-content {
     width: 80%;
     margin-inline: auto;
@@ -61,13 +64,29 @@
     width: 15rem;
 }
 
-.presentation__title {
-    font-size: 2.6rem;
+.title {
+    font-size: 6vw;
     margin-block: 1.4rem;
 }
 
-.presentation__paragraph {
-    font-size: 1.8rem;
+.paragraph {
+    font-size: 4.6vw;
     font-weight: 600;
     margin-bottom: 1.4rem;
+}
+
+/* ------ about ------ */
+.content-box {
+    margin-top: 5rem;
+    padding: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+
+    border-radius: .6rem;
+}
+
+.content-box .paragraph {
+    font-weight: 400;
+    text-align: justify;
 }
