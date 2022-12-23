@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --principal-color: #B972F0;
+    --navbar-color: #773CA3;
+    --project-box-color: #ADFFCB;
+
+    --principal-font: 'Open Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    background-image: url(../images/imagem-de-fundo-P.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--principal-color);
+    font-size: 1.6rem;
+    font-family: var(--principal-font);
+}
