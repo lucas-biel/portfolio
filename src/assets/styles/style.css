@@ -1,0 +1,73 @@
+@import url(./global.css);
+
+.content {
+    backdrop-filter: blur(4px);
+}
+
+.header__navbar {
+    background-color: var(--navbar-color);
+    padding: 2.4rem;
+}
+
+.header__section-links {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+    list-style-type: none;
+}
+
+.header__links a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.header__links a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: var(--project-box-color);
+
+    display: block;
+
+    transition: width .2s;
+}
+
+.header__links a:hover {
+    color: var(--project-box-color);
+    transition: .2s;
+}
+
+.header__links a:hover::after {
+    width: 100%;
+}
+
+.principal-content {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.presentation {
+    text-align: center;
+    color: white;
+}
+
+.presentation__box-image {
+    padding-top: 3rem;
+}
+
+.presentation__image {
+    border-radius: 8rem;
+    width: 15rem;
+}
+
+.presentation__title {
+    font-size: 2.6rem;
+    margin-block: 1.4rem;
+}
+
+.presentation__paragraph {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
