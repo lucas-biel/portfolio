@@ -7,6 +7,11 @@
     <title>Meu Portfólio</title>
 
     <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="content">
@@ -40,10 +45,40 @@
                     Sou estudante de Engenharia de Computação na Universidade Federal do Pará (UFPA). Além disso, no momento estou estagiando na área de Análise de Sistemas, com foco em Banco de Dados.
                 </p>
                 <p class="about__paragraph paragraph">
-                    Apesar do meu curso ter foco em hardware, acabei gostando mais do software, principalmente a área de desenvolvimento web, com foco no front-end, mas estou aberto a qualquer oportunidade.
+                    Apesar do meu curso ter foco em hardware, acabei gostando mais do <strong>software</strong>, principalmente a área de desenvolvimento web, com foco no <strong>front-end</strong>, mas estou aberto a qualquer oportunidade.
                 </p>
+            </section>
+
+            <section id="techs" class="content-box">
+                <h2 class="techs__title title">Tecnologias que tenho conhecimento</h2>
+
+                <div class="techs__cards swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="techs__image" src="./assets/images/html-icon.png" alt="Ícone do HTML">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="techs__image" src="./assets/images/css-icon.png" alt="Ícone do CSS">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="techs__image" src="./assets/images/js-icon.png" alt="Ícone do JavaScript">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="techs__image" src="./assets/images/sql-server-icon.png" alt="Ícone do SQL Server">
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
         </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./assets/script/main.js"></script>
 </body>
 </html>
