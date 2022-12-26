@@ -8,9 +8,10 @@
 }
 
 :root {
-    --principal-color: #B972F0;
-    --navbar-color: #773CA3;
-    --project-box-color: #ADFFCB;
+    --principal-color: #b972f0;
+    --navbar-color: #773ca3;
+    --project-box-color: #b559df94;
+    --projects-link-color: #2e0350;
 
     --principal-font: 'Open Sans', Arial, sans-serif;
 }
