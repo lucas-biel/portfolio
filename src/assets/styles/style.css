@@ -118,7 +118,7 @@
     gap: 1rem;
 }
 
-.project__card {
+.projects__card {
     background-color: var(--project-box-color);
     border-radius: 1.4rem;
     padding: 1rem;
@@ -126,12 +126,17 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.39);
 }
 
-.project__card + .project__card {
-    border-top: 1px solid var(--project-box-color);
+#projects h2:nth-child(1) {
+    margin-bottom: 2rem;
+}
+
+.projects__image {
+    width: 21rem;
+    border-radius: .6rem;
 }
 
 .projects__title {
-    margin-top: 0;
+    margin-block: 1rem;
 }
 
 .projects__link {
