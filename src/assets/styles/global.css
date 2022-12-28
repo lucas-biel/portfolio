@@ -26,6 +26,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-color: var(--principal-color);
+    
     font-size: 1.6rem;
     font-family: var(--principal-font);
+
+    height: 100vh;
 }
