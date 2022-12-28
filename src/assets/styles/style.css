@@ -131,7 +131,7 @@
 }
 
 .projects__image {
-    width: 21rem;
+    width: 100%;
     border-radius: .6rem;
 }
 
@@ -155,4 +155,29 @@
 
 .projects__paragraph .js {
     color: #f0f008;
+}
+
+/* ------ footer ------ */
+#contact {
+    background-color: var(--principal-color);
+    
+    padding: 2.4rem 1.2rem;
+    margin-top: 3rem;
+
+    color: white;
+}
+
+.contact__icon {
+    color: white;
+}
+
+.brand {
+    display: block;
+
+    color: white;
+    
+    text-align: center;
+    font-size: 1.4rem;
+
+    margin-top: 3rem;
 }
